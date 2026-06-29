@@ -4,8 +4,8 @@ from sklearn.preprocessing import StandardScaler
 
 def run_preprocessing():
     # Define paths
-    input_path = os.path.join(os.path.dirname(__file__), '..', 'credit_risk_raw', 'credit_risk_dataset.csv')
-    output_dir = os.path.join(os.path.dirname(__file__), '..', 'credit_risk_preprocessing')
+    input_path = os.path.join(os.path.dirname(__file__), '..', 'namadataset_raw', 'credit_risk_dataset.csv')
+    output_dir = os.path.join(os.path.dirname(__file__), '..', 'namadataset_preprocessing')
     output_path = os.path.join(output_dir, 'data_bersih.csv')
     
     # Create output directory if it doesn't exist
